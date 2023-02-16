@@ -4,26 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bgpic"
     tools:context=".MainActivity">
 
     <Spinner
         android:id="@+id/spinnerParah"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:text="PARAH select"
+        android:layout_height="50dp"/>
 
     <Spinner
         android:id="@+id/spinnerSurah"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="50dp" />
 
     <Spinner
         android:id="@+id/spinnerTranslation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="50dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+
 
 </LinearLayout>
